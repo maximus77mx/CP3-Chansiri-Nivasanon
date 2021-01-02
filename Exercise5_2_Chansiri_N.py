@@ -6,4 +6,5 @@ time =float(input("Time (h) :  "))
 if(time < 1):
     print("You time more than 1 Hour")
 result = distance / time
-print(result, "Km/h")
+print("Your Speed :", result, "Km/h")
+print("Thank You")
