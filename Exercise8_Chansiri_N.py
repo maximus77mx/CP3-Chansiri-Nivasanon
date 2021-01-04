@@ -10,7 +10,6 @@ if username == "Maximus" and password == "Hello":
     print("Pls, Order by input No.")
 else:
     print("Username 0r password incorrect pls try again")
-
 price1 = 55
 price2 = 60
 price3 = 119
