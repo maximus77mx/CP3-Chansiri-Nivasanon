@@ -18,11 +18,3 @@ while True:
         menuList.append([menuName,menuPrice])
 
 showBill()
-
-'''
-def sumPrice():
-    sum = 0
-    for price in priceList:
-        sum = sum + int(price)
-    print("Total :", sum, "THB")
-'''
