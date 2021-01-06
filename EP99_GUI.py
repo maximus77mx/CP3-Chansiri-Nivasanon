@@ -3,7 +3,8 @@ import math
 
 def leftClickButton(event):
     print(float(textBoxWeight.get())/math.pow(float(textBoxHeight.get())/100,2))
-    labelResult.configure(text=float(textBoxWeight.get())/math.pow(float(textBoxHeight.get())/100,2))
+    labelResult.configure\
+        (text=float(textBoxWeight.get())/math.pow(float(textBoxHeight.get())/100,2))
 
 MainWindow = Tk()
 labelHeight = Label(MainWindow, text="ส่วนสูง (cm.)")
