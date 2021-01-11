@@ -14,5 +14,6 @@ def get_btcprice():
         print("Current Price: ", round(result), "BTH")
         increse = (result - avg_bitcoin)/avg_bitcoin * 100
         print("increase: ", round(increse), "%")
+        break
 
 get_btcprice()
