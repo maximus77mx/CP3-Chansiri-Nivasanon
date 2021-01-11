@@ -2,7 +2,7 @@ from forex_python.bitcoin import *
 import datetime,decimal
 
 
-def getBTCprice():
+def get_btcprice():
     sum = 0
     b = BtcConverter()
     for i in range(1,31):
@@ -15,4 +15,4 @@ def getBTCprice():
         increse = (result - avg_bitcoin)/avg_bitcoin * 100
         print("increase: ", round(increse), "%")
 
-getBTCprice()
+get_btcprice()
